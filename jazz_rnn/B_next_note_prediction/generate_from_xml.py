@@ -31,7 +31,7 @@ def generate_from_xml(args):
 
     input_parser = parser.add_argument_group('Input Parameters')
     input_parser.add_argument('--model_dir', type=str,
-                              help='model and converter(pickled data corpus) directory to use')
+                              help='model and converter(pickled data corpus) directory to use',default = "training_results/transformer/model")
     input_parser.add_argument('--checkpoint', type=str,
                               default='model.pt',
                               help='model checkpoint to use in model_dir')
