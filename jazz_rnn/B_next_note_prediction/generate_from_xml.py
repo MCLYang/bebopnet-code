@@ -15,7 +15,7 @@ import torch
 
 
 import sys
-sys.path.append("../../")
+sys.path.append("/root/bebopnet-code/")
 print (sys.path)
 
 
