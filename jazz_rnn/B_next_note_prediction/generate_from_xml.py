@@ -16,6 +16,9 @@ import torch
 
 import sys
 sys.path.append("../../")
+print (sys.path)
+
+
 from jazz_rnn.B_next_note_prediction.generation_utils import song_params_dict, pop_bt2silence
 from jazz_rnn.B_next_note_prediction.music_generator import MusicGenerator
 from jazz_rnn.utils.music_utils import notes_to_stream, notes_to_swing_notes
