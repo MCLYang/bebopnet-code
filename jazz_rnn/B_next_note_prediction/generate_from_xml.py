@@ -13,6 +13,9 @@ import music21 as m21
 import lxml.etree as le
 import torch
 
+
+import sys
+sys.path.append("../../")
 from jazz_rnn.B_next_note_prediction.generation_utils import song_params_dict, pop_bt2silence
 from jazz_rnn.B_next_note_prediction.music_generator import MusicGenerator
 from jazz_rnn.utils.music_utils import notes_to_stream, notes_to_swing_notes
